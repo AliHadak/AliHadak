@@ -1,0 +1,40 @@
+import tkinter as tk
+
+class Ui:
+    @staticmethod
+    def open_new_window():
+        root = tk.Tk()
+        root.title("Ui")
+        root.mainloop()
+        
+    @staticmethod
+    def window_name(x):
+        root.title(x)
+        
+    @staticmethod
+    def window_geometry(a, y):
+        
+        root.geometry(a, y)
+        
+    @staticmethod
+    def text(b):
+        label = tk.Label(root, text=b)
+        
+    @staticmethod
+    def input(i):
+        entry = tk.Entry(root, text=i)
+        
+    @staticmethod
+    def lColor(c):
+        pass
+        
+    @staticmethod
+    def lFontSize():
+        pass
+        
+        
+        
+        
+
+
+
